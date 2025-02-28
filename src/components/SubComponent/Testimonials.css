@@ -1,0 +1,74 @@
+/* Testimonials.css */
+
+/* Container Styling */
+#testimonials {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+/* Image Carousel */
+.testimonial-img {
+    width: 100px; /* Increased size */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular Image */
+    border: 3px solid #ddd;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial-img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Stars Section */
+.stars {
+    margin-bottom: 20px;
+}
+
+.stars i {
+    color: #f4c150; /* Gold color for stars */
+    font-size: 24px; /* Larger stars */
+}
+
+/* Review Text */
+.review {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.review:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.review p.lead {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Name and Role */
+.title-sm {
+    font-size: 24px; /* Larger name text */
+    font-weight: 700;
+    color: #333;
+    margin-top: 10px;
+}
+
+small {
+    color: #666;
+    font-size: 16px; /* Slightly bigger and more readable */
+}
+
+/* Active Nav Item */
+.nav-pills .nav-link.active img {
+    border-color: #4caf50; /* Highlight the active image */
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.6);
+}
